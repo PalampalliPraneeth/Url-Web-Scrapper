@@ -23,6 +23,12 @@ The agent utilizes the following tools:
 
 By combining these tools, the agent can seamlessly handle the entire workflow, from fetching text to providing accurate answers to user questions.
 
+## Streamlit Deployment 🚀
+
+This application is deployed on Streamlit Sharing, a platform for hosting and sharing Streamlit apps. You can access the deployed application at the following URL:
+
+[Smart Web Scraper Q&A with Gemini LLM](https://url-web-scrapper.streamlit.app/)
+
 
 ## 🛠️ Installation
 
