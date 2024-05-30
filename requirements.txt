@@ -1,5 +1,6 @@
 streamlit
 requests
+langchain
 beautifulsoup4
 sentence-transformers
 faiss-cpu
