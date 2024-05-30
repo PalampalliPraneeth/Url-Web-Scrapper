@@ -17,3 +17,17 @@ To get started with the application, follow these steps:
    ```bash
    git clone https://github.com/your-username/smart-web-scraper-qa.git
    cd smart-web-scraper-qa
+   ```
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Set up Streamlit secrets**:
+   Add your Gemini API key to the .streamlit/secrets.toml file:
+   ```bash
+   export GEMINI_API_KEY=your_api_key_here
+   ```
+4. **Run the application**:
+   ```bash
+   streamlit run streamlit_gemini.py
+   ```
