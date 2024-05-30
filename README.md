@@ -1,6 +1,6 @@
 # 🌐 Smart Web Scraper Q&A with Gemini LLM 🦙🦜
 
-This project is a web-based application built with Streamlit that allows users to scrape text content from a URL and ask questions about the content using a custom LLM (Language Learning Model) based on Gemini. The application uses modern NLP techniques to process and retrieve relevant information from the scraped content.
+This project is a web-based application built with Streamlit that allows users to scrape text content from a URL and ask questions about the content using a LLM (Language Learning Model) based on Gemini. The application utilizes the Gemini LLM (Large Language Model) from Google to provide accurate and relevant answers to the user's questions.
 
 ## Features
 
