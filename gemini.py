@@ -29,7 +29,7 @@ class GeminiLLM(LLM):
     
     def _call(self, prompt: str, stop: Optional[List[str]] = None) -> str:
         api_key = os.getenv('GEMINI_API_KEY')  # Ensure your API key is set in the environment variables
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyC7VNSANzB0863NIKGzL1mal66grwTcxCg"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={api_key}"
 
         headers = {
             "Content-Type": "application/json"
