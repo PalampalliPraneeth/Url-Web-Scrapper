@@ -2,14 +2,15 @@
 
 This project is a web-based application built with Streamlit that allows users to scrape text content from a URL and ask questions about the content using a LLM (Language Learning Model) based on Gemini. The application utilizes the Gemini LLM (Large Language Model) from Google to provide accurate and relevant answers to the user's questions.
 
-## Features
+## 🚀 Features
 
 - **Web Scraping**: Fetches and processes text content from a provided URL.
+- **Text Processing**: Split the text into smaller chunks for efficient processing.
 - **Question Answering**: Utilizes a custom LLM (Gemini) to answer user queries based on the scraped content.
 - **User-Friendly Interface**: Simple and intuitive interface built with Streamlit.
 - **Interactive Visuals**: Styled with custom CSS for a better user experience.
 
-## Installation
+## 🛠️ Installation
 
 To get started with the application, follow these steps:
 
