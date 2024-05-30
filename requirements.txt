@@ -1,6 +1,7 @@
 streamlit
 requests
 langchain
+langchain-community
 beautifulsoup4
 sentence-transformers
 faiss-cpu
