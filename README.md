@@ -27,7 +27,30 @@ To get started with the application, follow these steps:
    ```bash
    export GEMINI_API_KEY=your_api_key_here
    ```
-4. **Run the application**:
+4. **🚀 Run the application**:
    ```bash
    streamlit run streamlit_gemini.py
    ```
+## 📦 Dependencies 
+
+This project relies on the following libraries:
+
+- `streamlit`: For building the user interface.
+- `requests`: For making HTTP requests to fetch the URL content.
+- `beautifulsoup4`: For parsing the HTML content and extracting text.
+- `langchain`: For text processing and question answering using the Gemini LLM.
+- `sentence-transformers`: For encoding the text chunks into embeddings.
+- `faiss-cpu`: For efficient vector similarity search.
+
+## 🤝 Contributing 
+
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## 🙏 Acknowledgements 
+
+This project utilizes the following resources:
+
+- [Streamlit](https://streamlit.io/): An open-source app framework for building data apps.
+- [LangChain](https://github.com/hwchase17/langchain): A framework for building applications with large language models.
+- [Sentence Transformers](https://github.com/UKPLab/sentence-transformers): A library for encoding text into embeddings.
+- [Gemini LLM](https://cloud.google.com/vertex-ai/docs/generative-ai/tutorials/text-generation): Google's Generative Language Model for text generation.
